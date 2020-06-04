@@ -14,7 +14,7 @@
     </parent>
     <groupId>mk.springframework</groupId>
     <artifactId>mk-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>mk-pet-clinic</name>
     <description>Pet Clinic</description>
 
@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/madankumard/mk-pet-clinic.git</developerConnection>
-      <tag>mk-pet-clinic-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
