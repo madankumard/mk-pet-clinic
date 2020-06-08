@@ -12,6 +12,15 @@ import java.util.Set;
 @Getter
 @NoArgsConstructor
 public class Owner extends Person {
+
+    private String address;
+
+    private String city;
+
+    private String telephone;
+
+    private Set<Pet> pets = new HashSet<>();
+
     @Builder
     public Owner(Long id, String firstName, String lastName, String address, String city,
                  String telephone, Set<Pet> pets) {
@@ -25,13 +34,7 @@ public class Owner extends Person {
         }
     }
 
-    private String address;
 
-    private String city;
-
-    private String telephone;
-
-    private Set<Pet> pets = new HashSet<>();
 
 
     /**
